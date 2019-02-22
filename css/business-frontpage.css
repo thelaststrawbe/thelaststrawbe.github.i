@@ -14,10 +14,10 @@ h1{
     font-family: 'Damion', cursive;
 }
 navbar-brand{
-    color: #43484E
+    color: black
 }
 .zwart{
-    color: #43484E
+    color: black
 }
 
 .justify{
@@ -29,7 +29,7 @@ navbar-brand{
 }
 .font{
     font-family: 'Comfortaa', cursive;
-    color: #43484E;
+    color: black;
 }
 .footer{
     position: absolute;
@@ -44,11 +44,15 @@ navbar-brand{
     background-color: #E8B510;
 }
 .black{
-    background-color: #43484E
+    background-color: black
 }
 .logo{
-    width: 50%;
-    height: 65%;
+    width: 65%;
+    height: 75%;
+}
+.vlajo{
+    width: 20%;
+    height: 15%; 
 }
 .icon{
     color: white;
