@@ -46,3 +46,11 @@ navbar-brand{
 .black{
     background-color: #43484E
 }
+.logo{
+    width: 50%;
+    height: 65%;
+}
+.icon{
+    color: white;
+}
+
