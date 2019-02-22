@@ -1,0 +1,48 @@
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+body{
+  padding-top: 56px;
+}
+header{
+    background-color: #E8B510;
+}
+
+h1{
+    font-family: 'Damion', cursive;
+}
+navbar-brand{
+    color: #43484E
+}
+.zwart{
+    color: #43484E
+}
+
+.justify{
+    text-align: justify
+}
+.ondertitel{
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.5em
+}
+.font{
+    font-family: 'Comfortaa', cursive;
+    color: #43484E;
+}
+.footer{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+.white{
+    background-color: white
+}
+.yellow{
+    background-color: #E8B510;
+}
+.black{
+    background-color: #43484E
+}
