@@ -51,12 +51,15 @@ navbar-brand{
     height: ;
 }
 .vlajo{
-    width: 20%;
-    height: 15%; 
+    width: 8%;
+    height: 3%; 
 }
 .icon{
     color: white;
 }
 .sipatini{
     padding-bottom: 2em;
+}
+.t{
+    padding-bottom: 11em;
 }
