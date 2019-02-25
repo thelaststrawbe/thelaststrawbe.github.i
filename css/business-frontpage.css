@@ -3,10 +3,10 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
  */
-
 body{
-  padding-top: 56px;
+    padding-top: 3em;
 }
+
 header{
     margin-top: auto;
     background-color: #E8B510;
@@ -51,9 +51,6 @@ navbar-brand{
 .icon{
     color: white;
 }
-.sipatini{
-    padding-bottom: 2em;
-}
 
 .footer{
     position: absolute;
@@ -61,15 +58,4 @@ navbar-brand{
     left: 0;
     right: 0;
 }
-.opvullingHome{
-    padding-bottom: 5em;
-}
-.opvullingOverons{
-    padding-bottom: 23em
-}
-.opvullingContact{
-    padding-bottom: 11em
-}
-.opvullingBestellen{
-    padding-bottom: 22.5em
-}
+
