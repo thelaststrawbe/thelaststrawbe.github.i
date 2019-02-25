@@ -63,6 +63,13 @@ navbar-brand{
     width: 100%;
     left: 0;
     right: 0;
-
-    
+}
+.opvullingOverons{
+    padding-bottom: 23em
+}
+.opvullingContact{
+    padding-bottom: 11em
+}
+.opvullingBestellen{
+    padding-bottom: 22.5em
 }
