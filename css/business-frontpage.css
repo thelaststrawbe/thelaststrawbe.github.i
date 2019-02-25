@@ -47,8 +47,8 @@ navbar-brand{
     background-color: black
 }
 .logo{
-    width: 65%;
-    height: 75%;
+    width: ;
+    height: ;
 }
 .vlajo{
     width: 20%;
@@ -57,4 +57,6 @@ navbar-brand{
 .icon{
     color: white;
 }
-
+.sipatini{
+    padding-bottom: 2em;
+}
