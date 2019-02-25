@@ -3,10 +3,12 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
  */
+
 body{
   padding-top: 56px;
 }
 header{
+    margin-top: auto;
     background-color: #E8B510;
 }
 
@@ -31,12 +33,7 @@ navbar-brand{
     font-family: 'Comfortaa', cursive;
     color: black;
 }
-.footer{
-    position: absolute;
-    width: 100%;
-    left: 0;
-    right: 0;
-}
+
 .white{
     background-color: white
 }
@@ -60,6 +57,12 @@ navbar-brand{
 .sipatini{
     padding-bottom: 2em;
 }
-.t{
-    padding-bottom: 11em;
+
+.footer{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+
+    
 }
