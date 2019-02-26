@@ -53,9 +53,16 @@ navbar-brand{
 }
 
 .footer{
-    position: absolute;
+    background-color: darkgrey;
     width: 100%;
-    left: 0;
-    right: 0;
 }
-
+.nav{
+  float: none;
+}
+.whiteText{
+    color: white;
+}
+.fBtn{
+    padding-top: 0;
+    margin-top: 0;
+}
