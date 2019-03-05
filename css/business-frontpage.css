@@ -69,3 +69,11 @@ navbar-brand{
 .vlajobtn{
     align-self: center;
 }
+.column {
+  float: Left;
+  width: 25%;
+}
+.column2 {
+  float: left;
+  width: 25%;
+}
