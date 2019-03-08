@@ -55,6 +55,9 @@ navbar-brand{
 .footer{
     background-color: darkgrey;
     width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 .nav{
   float: none;
@@ -76,4 +79,11 @@ navbar-brand{
 .column2 {
   float: left;
   width: 25%;
+}
+.faq{
+    color: black;
+    background-color: #E8B510;
+}
+.collapse{
+    color: black;
 }

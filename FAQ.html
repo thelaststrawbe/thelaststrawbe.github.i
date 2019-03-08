@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Damion" rel="stylesheet">
-<meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Comfortaa|Damion" rel="stylesheet">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
   <meta name="author" content="">
@@ -17,7 +17,7 @@
 
   <!-- Custom styles for this template -->
   <link href="css/business-frontpage.css" rel="stylesheet">
-
+       
 </head>
 
 <body>
@@ -31,8 +31,9 @@
       </button>
       <div class="collapse navbar-collapse font" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="index.html">Home
+              <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
@@ -41,10 +42,10 @@
           <li class="nav-item">
             <a class="nav-link" href="Producten.html">Producten</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="Contact.html">Contact</a>
           </li>
-                        <li class="nav-item">
+            <li class="nav-item">
             <a class="nav-link" href="FAQ.html">FAQ</a>
           </li>
         </ul>
@@ -53,12 +54,12 @@
   </nav>
 
   <!-- Header -->
-  <header class="py-1 mb-1 white">
-    <div class="container h-100">
+  <header class="py-1 mb-1 white header">
+    <div class="container h-50">
       <div class="row h-100 align-items-center">
         <div class="col-lg-12">
-          <h1 class="display-4 zwart mt-5 mb-2 text-center">Contact</h1>
-          <p class="lead mb-5 zwart ondertitel font text-center"></p>
+          <h1 class="display-4 zwart mt-5 mb-2 text-center">The Last Straw</h1>
+          <p class="lead mb-5 zwart ondertitel font text-center">Guilt free sipping</p>
         </div>
       </div>
     </div>
@@ -66,57 +67,59 @@
 
   <!-- Page Content -->
   <div class="container">
-    <div class="row font opvullingContact">
-      <div class="col-md-12  mb-10">
-          <h2>Contacteer ons </h2>
+    <div class="row font">
+      <div class="col-md-12 mb-5 sipatini">
+        <h2>FAQ</h2>
         <hr>
-        <p class="justify font">
-          <address>
-          <strong>The Last Straw</strong>
-          <br>Geldenaaksbaan 335
-          <br>3001 Leuven
-          <br>
-        </address>
-        <address>
-          E-mail:
-          <a href="mailto:info@thelaststraw.be">info@thelaststraw.be</a><br>
-            Tel.: +32 471 40 59 88
-        </address>
-          U kan ons bereiken van maandag tot vrijdag van 09:00 uur tot 16:00 uur. 
-        </p>      
-      </div>
-
-      
-      
+      </div>    
     </div>
-    <!-- /.row -->
-    <div class="row">
-
-    <div class="col-md-8 mb-5">
-        <h2>
-        </h2>
-        
-    </div>
-    <!-- /.row -->
-
   </div>
-  <!-- /.container -->
-
-  <!-- Footer -->
-   <!-- <footer class="footer bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; The Last Straw 2019   
-          <button class="btn"><a target="_blank" href="https://www.facebook.com/The-Last-Straw-301156470594552/"><i class="fa fa-facebook-square icon" style="font-size:36px">
-            </i></a></button>
-          
-           <button class="btn"><a target="_blank" href="https://www.instagram.com/thelaststrawbe/"><i class="fa fa-instagram icon" style="font-size:36px">
-              </i></a></button>
-          
-          <a target="_blank" href="https://www.vlajo.org/"> <img src="images/button_onder_toezicht_van_Vlajovzw.jpg" class="img-fluid vlajo"> </a>
-    </p>    
+<div class="container">
+<div id="accordion">
+  <div class="card">
+    <div class="card-header">
+      <a class="card-link" data-toggle="collapse" href="#collapseOne">
+        Collapsible Group Item #1
+      </a>
     </div>
-  </footer> -->
-    <nav class="footer navbar navbar-expand-lg navbar-dark black fixed-bottom">
+    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+      <div class="card-body">
+        Lorem ipsum..
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+        Collapsible Group Item #2
+      </a>
+    </div>
+    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Lorem ipsum..
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+        Collapsible Group Item #3
+      </a>
+    </div>
+    <div id="collapseThree" class="collapse" data-parent="#accordion">
+      <div class="card-body">
+        Lorem ipsum..
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <!-- /.container -->
+    
+  <!-- Footer -->
+  <nav class="footer navbar navbar-expand-lg navbar-dark black fixed-bottom">
     <div class="container-fluid">
         <ul class="navbar-nav mx-auto text-center">
             <li class="whiteText">
@@ -136,9 +139,11 @@
         </ul>
     </div>
   </nav>
+
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      
 
 </body>
 
