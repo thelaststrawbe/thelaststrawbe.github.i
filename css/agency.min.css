@@ -13,15 +13,15 @@ p {
 }
 
 a {
-    color: #fed136
+    color: #ffcc00
 }
 
 a:hover {
-    color: #fec503
+    color: #ffcc00
 }
 
 .text-primary {
-    color: #fed136 !important
+    color: #ffcc00 !important
 }
 
 h1,
@@ -50,7 +50,6 @@ section h2.section-heading {
 section h3.section-subheading {
     font-size: 16px;
     font-weight: 400;
-    font-style: italic;
     margin-bottom: 75px;
     text-transform: none;
     font-family: 'Comfortaa';
@@ -74,8 +73,8 @@ section h3.section-subheading {
 }
 
 .btn-primary {
-    background-color: #fed136;
-    border-color: #fed136
+    background-color: #ffcc00;
+    border-color: #ffcc00;
 }
 
 .btn-primary:active,
@@ -93,7 +92,7 @@ section h3.section-subheading {
 }
 
 ::selection {
-    background: #fed136;
+    background: #ffcc00;
     text-shadow: none
 }
 
@@ -116,12 +115,12 @@ img::-moz-selection {
     text-transform: uppercase;
     color: #fff;
     border: 0;
-    background-color: #fed136;
+    background-color: #ffcc00;
     font-family: 'Comfortaa'
 }
 
 #mainNav .navbar-brand {
-    color: #fed136;
+    color: #ffcc00;
     font-family: 'Damion'
 }
 
@@ -143,7 +142,7 @@ img::-moz-selection {
 
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fed136
+    color: #ffcc00;
 }
 
 @media (min-width:992px) {
@@ -456,7 +455,7 @@ header.masthead .intro-text .intro-heading {
     color: #fff;
     border: 7px solid #e9ecef;
     border-radius: 100%;
-    background-color: #fed136
+    background-color: #ffcc00;
 }
 
 .timeline > li .timeline-image h4 {
@@ -596,8 +595,8 @@ header.masthead .intro-text .intro-heading {
 }
 
 .team-member img {
-    width: 225px;
-    height: 225px;
+    width: 230px;
+    height: 245px;
     border: 7px solid #fff
 }
 
@@ -612,9 +611,10 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-    background-color: #FFFFFF;
+    background-color: #F8F9FA;
     background-repeat: no-repeat;
-    background-position: center
+    background-position: center;
+    color: black;
 }
 
 section#contact .section-heading {
@@ -626,11 +626,21 @@ section#contact .form-group {
 }
 
 .vlajo{
-    background-color: #F8F9FA;
+    background-color: white;
 }
+.justify{
+    text-align: center
+}
+.card-link{
+    color: #ffcc00;
+}
+
+
+
 footer {
     padding: 25px 0;
-    text-align: center
+    text-align: center;
+    background-color: #F8F9FA
 }
 
 footer span.copyright {
@@ -662,5 +672,5 @@ ul.social-buttons li a {
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
-    background-color: #fed136
+    background-color: #ffcc00;
 }
