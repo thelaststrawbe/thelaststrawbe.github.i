@@ -13,15 +13,15 @@ p {
 }
 
 a {
-    color: #ffcc00
+    color: #E8B510
 }
 
 a:hover {
-    color: #ffcc00
+    color: #E8B510
 }
 
 .text-primary {
-    color: #ffcc00 !important
+    color: #E8B510 !important
 }
 
 h1,
@@ -80,19 +80,19 @@ section h3.section-subheading {
 .btn-primary:active,
 .btn-primary:focus,
 .btn-primary:hover {
-    background-color: #fec810 !important;
-    border-color: #fec810 !important;
+    background-color: #E8B510 !important;
+    border-color: #E8B510 !important;
     color: #fff
 }
 
 .btn-primary:active,
 .btn-primary:focus {
-    -webkit-box-shadow: 0 0 0 .2rem rgba(254, 209, 55, .5) !important;
-    box-shadow: 0 0 0 .2rem rgba(254, 209, 55, .5) !important
+    -webkit-box-shadow: 0 0 0 .2rem rgba(232, 181, 16, .5) !important;
+    box-shadow: 0 0 0 .2rem rgba(232, 181, 16, .5) !important
 }
 
 ::selection {
-    background: #ffcc00;
+    background: #E8B510;
     text-shadow: none
 }
 
@@ -115,12 +115,12 @@ img::-moz-selection {
     text-transform: uppercase;
     color: #fff;
     border: 0;
-    background-color: #ffcc00;
+    background-color: #E8B510;
     font-family: 'Comfortaa'
 }
 
 #mainNav .navbar-brand {
-    color: #ffcc00;
+    color: #E8B510;
     font-family: 'Damion'
 }
 
@@ -128,7 +128,7 @@ img::-moz-selection {
 #mainNav .navbar-brand:active,
 #mainNav .navbar-brand:focus,
 #mainNav .navbar-brand:hover {
-    color: #fec503
+    color: #E8B510
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -142,7 +142,7 @@ img::-moz-selection {
 
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #ffcc00;
+    color: #E8B510;
 }
 
 @media (min-width:992px) {
@@ -180,7 +180,7 @@ img::-moz-selection {
 header.masthead {
     text-align: center;
     color: #fff;
-    background-image: url(../img/header-bg.jpg);
+    background-color: black;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -188,8 +188,8 @@ header.masthead {
 }
 
 header.masthead .intro-text {
-    padding-top: 150px;
-    padding-bottom: 100px
+    padding-top: 50px;
+    padding-bottom: 50px
 }
 
 header.masthead .intro-text .intro-lead-in {
@@ -208,10 +208,10 @@ header.masthead .intro-text .intro-heading {
     font-family: 'Comfortaa'
 }
 
-@media (min-width:768px) {
+@media (min-width:400px) {
     header.masthead .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px
+        padding-top: 150px;
+        padding-bottom: 100px
     }
 
     header.masthead .intro-text .intro-lead-in {
@@ -226,7 +226,7 @@ header.masthead .intro-text .intro-heading {
         font-size: 75px;
         font-weight: 700;
         line-height: 75px;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
         font-family: 'Comfortaa'
     }
 }
@@ -455,7 +455,7 @@ header.masthead .intro-text .intro-heading {
     color: #fff;
     border: 7px solid #e9ecef;
     border-radius: 100%;
-    background-color: #ffcc00;
+    background-color: #E8B510;
 }
 
 .timeline > li .timeline-image h4 {
@@ -632,7 +632,7 @@ section#contact .form-group {
     text-align: center
 }
 .card-link{
-    color: #ffcc00;
+    color: #E8B510;
 }
 
 
@@ -672,5 +672,5 @@ ul.social-buttons li a {
 ul.social-buttons li a:active,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:hover {
-    background-color: #ffcc00;
+    background-color: #E8B510;
 }
