@@ -348,7 +348,9 @@ header.masthead .intro-text .intro-heading {
     margin-bottom: 30px
 }
 
-.portfolio-modal .modal-content img {
+.portfolio-modal .modal-content img{
+    ;
+    height: auto;
     margin-bottom: 30px
 }
 
@@ -629,13 +631,14 @@ section#contact .form-group {
     background-color: white;
 }
 .justify{
-    text-align: center
+    text-align: center;
+}
+.margin{
+    margin-bottom: 20px;
 }
 .card-link{
     color: #E8B510;
 }
-
-
 
 footer {
     padding: 25px 0;
